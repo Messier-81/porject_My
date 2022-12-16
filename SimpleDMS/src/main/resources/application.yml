@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    hikari:
+      poolName: HikariPoolBooks
+      minimumIdle: '1'
+      maximumPoolSize: '1'
+    password: Ehdtjdwkdehdgur93
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    username: JANGDH93
+    url: jdbc:log4jdbc:oracle:thin:@dongsungteamproject_high?TNS_ADMIN=/Users/hyuk/VScode_workout/github/cloud_wallet/Wallet_DONGSUNGTEAMPROJECT
+  devtools:
+    restart:
+      enabled: 'true'
+  jpa:
+    defer-datasource-initialization: 'true'
+    hibernate:
+      ddl-auto: create
+    show-sql: 'true'
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+    properties:
+      hibernate:
+        format_sql: 'true'
+  sql:
+    init:
+      continue-on-error: 'true'
+      mode: always
+logging:
+  level:
+    org:
+      hibernate: info
+server:
+  port: '8000'

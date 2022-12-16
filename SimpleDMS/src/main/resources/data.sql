@@ -1,0 +1,79 @@
+-- 샘플 데이터 입력
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자', '제목', 'N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자2', '제목2','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자3', '제목3','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자4', '제목4','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자5', '제목5','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자6', '제목6','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자7', '제목7','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자8', '제목8','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자9', '제목9','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자10', '제목10','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자11', '제목11','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자12', '제목12','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자13', '제목13','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자14', '제목14','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자15', '제목15','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자16', '제목16','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자17', '제목17','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자18', '제목18','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자19', '제목19','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자20', '제목20','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자21', '제목21','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자22', '제목22','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자23', '제목23','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자24', '제목24','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_QNA
+VALUES (SQ_QNA.nextval, '질문자25', '제목25','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+
+
+-- FAQ 데이터 입력
+INSERT INTO TB_FAQ
+VALUES (SQ_FAQ.nextval, '제목1', '내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_FAQ
+VALUES (SQ_FAQ.nextval, '제목2', '내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_FAQ
+VALUES (SQ_FAQ.nextval, '제목3', '내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_FAQ
+VALUES (SQ_FAQ.nextval, '제목4', '용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_FAQ
+VALUES (SQ_FAQ.nextval, '제목5', '내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_FAQ
+VALUES (SQ_FAQ.nextval, '제목6', '용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_FAQ
+VALUES (SQ_FAQ.nextval, '제목7', '내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_FAQ
+VALUES (SQ_FAQ.nextval, '제목8', '내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_FAQ
+VALUES (SQ_FAQ.nextval, '제목9', '1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_FAQ
+VALUES (SQ_FAQ.nextval, '제목10', '용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+INSERT INTO TB_FAQ
+VALUES (SQ_FAQ.nextval, '제목11', '내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1내용1','N', TO_CHAR(SYSDATE, 'YYYY-MM-DD') ,NULL, NULL);
+
+
+COMMIT;
